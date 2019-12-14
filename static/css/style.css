@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+      background-image: linear-gradient(#54b4eb, #2FA4E7 60%, #1d9ce5);
 }
 
 #map,
@@ -8,3 +9,23 @@ body,
 html {
   height: 100%;
 }
+
+.legend {
+  font-weight: bold;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 17px rgba(0.3,0.3,0.3,0.3);
+  border-radius: 7px;
+  padding: 10px 10px;
+}
+
+.legend i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  float: left;
+  clear:both;
+}
+p { font-weight: bold;
+color: white;}
+
+a { color: white;}

@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Leaflet Step-1</title>
-
+  <title>Mapping Web - Leaflet </title>
+  
+<link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
 
@@ -13,15 +15,33 @@
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 <body>
-
+  <div class="bg-primary">
+    <div class="row">
+      <div class="col-xs-12 col-md-12"><br>
+        <h1 style="text-align: center;">
+		<i class="fas fa-globe-americas fa-spin fa-fw"></i>
+		 <u> EarthQuake Data Visualization </u>
+		<i class="fas fa-globe-americas fa-spin fa-fw"></i>
+        </h1><br>
+      </div>
+    </div> <center>
+	 <p>The below data represents earthquakes visulaization for the past 30 days which is updated every day using the 
+      <a href="http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_blank">United States Geological Survey (USGS GeoJSON Feed).</a> <br>
+      Leaflet JS Library is used to plot the below visulaization. Click on each circle to get detailed information.<br>
+	  Earthquakes with higher magnitudes appears larger and darker in color.
+   </p></center>
+ 
+</div> 
+   
   <!-- The div that holds our map -->
   <div id="map"></div>
-
+ 
   <!-- Leaflet JavaScript -->
   <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
   <!-- D3 JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
   <!-- Our JavaScript -->
   <script type="text/javascript" src="static/js/logic.js"></script>
+  <script type="text/javascript" src="static/js/config.js"></script>
 </body>
 </html>
