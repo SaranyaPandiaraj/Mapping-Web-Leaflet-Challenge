@@ -7,7 +7,7 @@ var Features_Info = L.geoJSON(earthquake_data,{
 						<hr><h3>Magnitude : ${Data.properties.mag} ${Data.properties.magType}</h3>\
 						<h3>Location : ${Data.properties.place}</h3>\
 						<h3>Title : ${Data.properties.type}</h3>\
-						<hr><p> Time : ${new Date(Data.properties.time)}</p>`);
+						<hr><h4> Time : ${new Date(Data.properties.time)}</h4>`);
 					},
 					pointToLayer:function(Data,latlng){
 						return new L.circle(latlng,{
