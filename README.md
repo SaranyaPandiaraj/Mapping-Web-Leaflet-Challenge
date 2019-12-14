@@ -5,7 +5,7 @@ Challenge is to visualize the earthquake data and create a map using Leaflet tha
 
 https://saranyapandiaraj.github.io/Mapping-Web-Leaflet-Challenge/
 
-<b> Note : (The Map will take few seconds time to load) </b>
+<b> Note : (The Map will take few seconds to load) </b>
 
  <center>
 	 <p>The below data represents earthquakes visulaization for the past 30 days which is updated every day using the 
